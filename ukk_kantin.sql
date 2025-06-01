@@ -3,7 +3,7 @@ CREATE TABLE `makanan` (
   `nama` varchar(100) DEFAULT NULL,
   `stok` int(11) DEFAULT NULL,
   `harga` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 INSERT INTO `makanan` (`id`, `nama`, `stok`, `harga`) VALUES
 (17, 'batagor', 22, 10000),
